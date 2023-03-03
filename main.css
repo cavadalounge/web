@@ -1,0 +1,304 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  width: 100vw;
+  position: relative;
+  background-color: #fff;
+  font-family: Roboto Slab;
+  z-index: 1;
+}
+ 
+.vertical-menu {
+  width: 100%;
+  transition: 0.5s; 
+  padding-bottom:100px;
+  background: url('./cavadaLogo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 15;
+}
+
+.menu-list{
+  position: relative;
+  top: -40px;
+  background-color: rgb(0, 0, 0, 0.4);
+ }
+
+.cavadaL{
+  max-width: 23rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.vertical-menu a {
+  color: rgb(255, 255, 255);
+  text-shadow: 0, 0, 1rem, white;
+  display: block;
+  padding: 12px; 
+  text-decoration: solid; 
+  font-size: 2rem;
+}
+
+.fa {
+  font-size: 30px;                                        
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.burger-tab {
+  top: -1%;
+  width: 0; 
+  position: absolute; 
+  height: 100%;
+  z-index: 1; 
+  left: 0;
+  background-color: rgb(15, 13, 13); 
+  overflow-x: hidden; 
+  overflow-y: scroll;
+  padding-top: 100px; 
+  transition: 0.5s; 
+}
+
+.burger-tab a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.burger-tab .closebtn {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 250%;
+  background-color: transparent;
+  margin-left: -90%;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+.footer-social-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 10%;
+  min-height: 70px;
+  z-index: 20;
+  text-align: center;
+}
+
+.footer-social-div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+}
+
+.food-container {
+  /*width: 70%;*/
+  padding: 0;
+  margin: 0 auto;
+}
+
+.item-bgr {
+  display: block;
+  width: 100%;
+  height: 70rem;
+  margin: auto;
+}
+
+.ingredient-container {
+  background-color: #00000025;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.food-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  border-right: 2px solid white;
+  width:100%;
+ }
+
+.price-category:last-child {
+  border-right: none;
+ }
+
+.meal {
+  width: 100%;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 2rem;
+}
+
+.price {
+  display: block;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: normal;
+  padding-left: 6px;
+}
+
+@media (max-width: 450px) {
+
+  body {
+    background-color: white;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .cavadaL {
+    max-width: 17rem;
+    margin: auto;
+    padding: 1rem;
+  }
+    .food-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .price-category {
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: space-around;
+      align-items: center;
+      border-right: none;
+      border-bottom: thin solid white;
+    }
+  
+    .price-category:last-child {
+      border-bottom: none;
+    }
+  
+     
+  
+    .price {
+      display: block;
+      font-size: 1rem;
+      line-height: 20px;
+      font-weight: normal
+    }
+        /* .ingredient-container {
+          background-color: #00000025;
+          color: white;
+          padding: 2rem;
+          text-align: center;
+        }
+    
+        .food-list {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+    
+        .price-category {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          justify-content: space-around;
+          align-items: center;
+          padding: 1.5rem;
+          border-right: 2px solid white;
+        }
+    
+        .price-category:last-child {
+          border-right: none;
+        }
+    
+        .meal {
+          width: auto;
+          display: flex;
+          font-size: 1rem;
+          font-weight: 400;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+        }
+    
+        .price {
+          display: block;
+          font-size: 1.5rem;
+          font-weight: 600;
+          padding-left: 12px;
+          color: #25d366;
+          background-color: #fff;
+        } */
+  .burger-tab {padding-top: 15px;}
+  .burger-tab a {font-size: 18px;}
+}
+
+.tabs {
+  z-index: 1;
+  position: relative;
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  text-decoration: rgb(49, 48, 48);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  transition: 0.5s ease;
+  top: inherit;
+  height: 100%;
+  width: 75%;
+  right: -130px;
+  
+}
