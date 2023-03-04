@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavada Online</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto%20Slab' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+
+
+
+
+    <div class="vertical-menu" style="text-align: center;top: -4%;max-height: 90%;">
+               <img src="mochaLogo.png" alt="logo" class="cavadaL">
+                <section class="menu-list">
+                  <!--<a href="#" class="tablinks" onclick="openNav('Firsatlar')" id="deals">DEALS</a>-->
+                  <!-- i covered the classic -->
+                  <a href="#" class="tablinks" onclick="openNav('Menuler')" id="grilled">Appetizers</a>
+                  <a href="#" class="tablinks" onclick="openNav('Durumler')" id="wraps">WRAPS</a>
+                  <a href="#" class="tablinks" onclick="openNav('xxlmenu')" id="xxlburgers">SHAWARMA</a>
+                  <!-- <a href="#" class="tablinks" onclick="openNav('Baslangiclar')" id="starters">GRILLED MEALS ROASTED CHICKEN</a> -->
+                  <!-- <a href="#" class="tablinks" onclick="openNav('classicmenu')" id="classics">THE CLASSICS</a> -->
+                  <a href="#" class="tablinks" onclick="openNav('CocukMenusu')" id="kidss">ARABIC MEALS</a>
+                  <a href="#" class="tablinks" onclick="openNav('newmenu')" id="newburgers">CAVADA SPECIAL</a>
+                  <a href="#" class="tablinks" onclick="openNav('Salatalar')" id="salads">FROZEN SMOOTHIES</a>
+                  <a href="#" class="tablinks" onclick="openNav('Icecekler')" id="drinks">DRINKS</a>
+                </section>
+      
+      
+                <a href="#eng" style="display: inline-block;color: white;" onclick="timeFunction()">English</a>
+                <p style="display: inline-block;color: white;">|</p>
+                <a href="#tr" style="display: inline-block;color: white;" onclick="timeFunction()">Türkçe</a>
+      
+      
+
+
+
+
+       <!-- Classic Start Ya -->
+      <div id="classicmenu" class="burger-tab" style="text-align: center;padding-bottom:100px;">
+        <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn">&times;</a>
+
+        <a href="#hamburgerContents" class="btn btn food-container" data-toggle="collapse"  aria-expanded="false" aria-controls="hamburgerContents">
+          <img src="hamburger.jpg" alt="Co-Jack" class="item-bgr">
+          <div class="card card-body ingredient-container"     style="color: white;text-align: center;" id="hamburger">
+            <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+            <p>Burger Patty - Lettuce - Tomato</p>
+            <br>
+            <div class="food-list">
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a style="width: 95%;" href="#cheeseburgerContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="cheeseburgerContents">
+          <img src="cheeseburger.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+          <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="cheeseburger">
+            <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+            <p>Burger Patty - Cheese - Tomato</p>
+            <br>
+            <div class="food-list">
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+            </div>
+          </div>
+        </a>
+         
+        <a style="width: 95%;" href="#chickenburgerContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="chickenburgerContents">
+          <img src="chickenburger.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+          <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="crispychicken">
+            <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+            <p>Chicken Burger Ya</p>
+            <br>
+            <div class="food-list">
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+            </div>
+          </div>
+        </a>
+         
+        <a style="width: 95%;" href="#mexicanContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="mexicanContents">
+          <img src="mexican.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="mexicanContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="mexican">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Grilled Mix Pepper - Grilled Onion - Special Hot Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...170TL&emsp;&emsp;150g + Chips...195TL&emsp;&emsp;200g + Chips...220TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#swissContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="swissContents">
+          <img src="swiss.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="swissContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="swiss">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Swiss Cheese - Grilled Onion - Grilled Mushroom - Pickle - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#americanContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="americanContents">
+          <img src="american.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="americanContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="american">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Onion Rings - Cheese - Pickle - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#stuffedContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="stuffedContents">
+          <img src="stuffed.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="stuffedContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="stuffed">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Grilled Mushroom - Gouda Cheese - Mild Cream Cheese - Grated Cheese - Grilled Onion - Crispy Onion</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#sweetdaltonContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="sweetdaltonContents">
+          <img src="sweetdalton.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="sweetdaltonContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="sweetdalton">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Crinkle Mix - Special Cheese Sauce - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...190TL&emsp;&emsp;150g + Chips...215TL&emsp;&emsp;200g + Chips...240TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#discofriscoContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="discofriscoContents">
+          <img src="discofrisco.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="discofriscoContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="discofrisco">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Mozarella - Fried Mozarella - Frisco Sauce - Red Onion - Pickle - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...190TL&emsp;&emsp;150g + Chips...215TL&emsp;&emsp;200g + Chips...245TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#vertigoContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="vertigoContents">
+          <img src="vertigo.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="vertigoContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="vertigo">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Grilled Halloumi - Mozarella - Red Cheddar - Fresh Basil - Crispy Onion - Caramelized Onion - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#butchersContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="butchersContents">
+          <img src="butchers.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="butchersContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="butchers">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Red Cheddar - Onion Strings - Pickle - Mix Greens - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#vintagetorqueContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="vintagetorqueContents">
+          <img src="vintagetorque.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="vintagetorqueContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="vintagetorque">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Smoked Beef - Vintage Cheddar - Mozarella - Crispy Onion - Pickle - Mustard</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#alphaContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="alphaContents">
+          <img src="alpha.jpg" alt="Alpha" style="max-width: 90%;text-align: right;" >
+        </a>
+        <div class="collapse" id="alphaContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="alpha">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Red Cheddar - Special Onion Sauce - Cream Cheese - Crispy Bacon - Crispy Onion</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...200TL&emsp;&emsp;150g + Chips...225TL&emsp;&emsp;200g + Chips...250TL</p>
+            </section>
+          </div>
+        </div>
+
+        <a style="width: 95%;" href="#cojackContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="cojackContents">
+          <img src="cojack.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="cojackContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="cojack">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Crispy Jalapeno - Coleslaw - Red Onion - Red Cheddar - Special Jack Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#suziequeContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="suziequeContents">
+          <img src="suzieque.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="suziequeContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="suzieque">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Smoked Antricot - Red Cheddar - Fried Mozarella - Mexican Cream Cheese - Glaze BBQ</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#rumble59Contents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="rumble59Contents">
+          <img src="rumble59.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="rumble59Contents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="rumble59">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Ribeye Steak - Cajun Chips - Red Cheddar - Mix Grated Cheese</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...190TL&emsp;&emsp;150g + Chips...215TL&emsp;&emsp;200g + Chips...240TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#greenfeastContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="greenfeastContents">
+          <img src="greenfeast.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="greenfeastContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="greenfeast">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Crushed Fresh Avocado - Crispy Vegetables - Red Cheddar - Special Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...195TL&emsp;&emsp;150g + Chips...220TL&emsp;&emsp;200g + Chips...245TL</p>
+            </section>
+          </div>
+        </div>
+         
+        <a style="width: 95%;" href="#baconContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="baconContents">
+          <img src="bacon.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="baconContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="bacon">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Bacon - Red Cheddar - Caramelized Red Onion - Special Sauce - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...200TL&emsp;&emsp;150g + Chips...225TL&emsp;&emsp;200g + Chips...250TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#theoakwoodContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="theoakwoodContents">
+          <img src="theoakwood.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="theoakwoodContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="theoakwood">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Mozarella - Crispy Parmesan - Burger Jam - American Garlic Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...180TL&emsp;&emsp;150g + Chips...205TL&emsp;&emsp;200g + Chips...230TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#montrealContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="montreal.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="montrealContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="montreal">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Bacon Jam - Red Cheddar - Lettuce - Special Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...195TL&emsp;&emsp;150g + Chips...220TL&emsp;&emsp;200g + Chips...245TL</p>
+            </section>
+          </div>
+        </div>
+        <a style="width: 95%;" href="#bbqContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="bbqContents">
+          <img src="bbq.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="bbqContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="bbq">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Cheese - Jalapeno - Tomato - Lettuce - Onion - Special Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+
+        <a style="width: 95%;" href="#whiskyOnionContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="whiskyOnionContents">
+          <img src="whiskyOnion.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="whiskyOnionContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="whiskyOnion">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Grilled Onion - Red Cheddar - Beef Bacon - Grilled Cheese - Special Whisky Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        
+        <a style="width: 95%;" href="#blueCheeseBaconContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="blueCheeseBacon.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="blueCheeseBaconContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="blueCheeseBacon">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Bacon - Blue Cheese - Onion - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        
+        <a style="width: 95%;" href="#beyondMushroomContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="beyondMushroom.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="beyondMushroomContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="beyondMushroom">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Bacon - Grilled Mushroom - Pickles - Onion Strings - Lettuce - Tomato - Special Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        
+        <a style="width: 95%;" href="#entreeContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="entree.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="entreeContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="entree">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Cheddar Cheese - Beef Bacon - Grilled Halloumi - Special Sauce</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...185TL&emsp;&emsp;150g + Chips...210TL&emsp;&emsp;200g + Chips...235TL</p>
+            </section>
+          </div>
+        </div>
+        
+        <a style="width: 95%;" href="#masterKingContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="masterKing.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="masterKingContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="masterKing">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Sliced Steak - 2x Cheddar Cheese - Fried Halloumi - Special Corn Sauce - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        
+        <a style="width: 95%;" href="#oxxoContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="oxxo.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="oxxoContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="oxxo">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Mozarella Cheese - Jalapeno - Fried Cheese - Smoked Bacon - Lettuce - Special Sauce - Chips</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        
+        <a style="width: 95%;" href="#ziggyPopContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="ziggyPop.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="collapse" id="ziggyPopContents" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="ziggyPop">
+            <h4 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> INGREDIENTS: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;">Burger Patty - Mozarella Cheese - Bacon - Pickles - Onion Strings - Lettuce - Tomato</p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;">100g + Chips...205TL&emsp;&emsp;150g + Chips...230TL&emsp;&emsp;200g + Chips...255TL</p>
+            </section>
+          </div>
+        </div>
+        
+        
+      </div>
+      <!-- Classic End Ya -->
+     <!-- onclick="closeNav('newmenu')" -->
+     <!-- New Menu Start -->
+      <div id="newmenu" class="burger-tab" style="text-align: center;padding-bottom: 100px;">
+        <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn" >&times;</a>
+        
+        <a style="width: 95%;" href="#nachoFiestaContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="nachoFiesta.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="nachoFiesta">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        <a style="width: 95%;" href="#texanContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="texan.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="texan">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        <a style="width: 95%;" href="#moreCheeseContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="moreCheese.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="moreCheese">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        
+        <a style="width: 95%;" href="#fullRangeContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="montrealContents">
+          <img src="fullRange.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="fullRange">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        
+      </div>
+      <!-- New Menu End ya -->
+
+
+
+       <!-- xxl start ya -->
+      <div id="xxlmenu" class="burger-tab" style="text-align: center;padding-bottom: 100px;">
+        <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn">&times;</a>
+        <a style="width: 95%;" href="#securityContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="911Contents">
+          <img src="security.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="security">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+             
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        <a style="width: 95%;" href="#911Contents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="911Contents">
+          <img src="911.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="nineoneone">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        <a style="width: 95%;" href="#doublebrisketContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="doublebrisketContents">
+          <img src="doublebrisket.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="doublebrisket">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        <a style="width: 95%;" href="#pittbossContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="pittbossContents">
+          <img src="pittboss.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="pittboss">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+        <a style="width: 95%;" href="#roadhouseContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="roadhouseContents">
+          <img src="roadhouse.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="roadhouse">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+      </div>
+        <!-- Xxl end Ya -->
+        <!-- Durumlar start ya -->
+      <div id="Durumler" class="burger-tab" style="text-align: center;padding-bottom: 100px;">
+        <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn">&times;</a>
+        <a style="width: 95%;" href="#chickenwrapContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="chickenwrapContents">
+          <img src="honeymchickenwrap.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="chickenwrap">
+          <h4 style="font-family: Roboto Slab Bold;"> Chicken Wrap: </h4>
+          <!-- <p>Chicken Burger</p> -->
+          <br>
+          <div class="food-list">
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+
+        <a style="width: 95%;" href="#hmchickenwrapContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="hmchickenwrapContents">
+          <img src="chickenwrap.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+                <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="hmchickenwrap">
+                  <h4 style="font-family: Roboto Slab Bold;"> Hm Chi: </h4>
+                  <!-- <p>Chicken Burger</p> -->
+                  <br>
+                  <div class="food-list">
+                    <div class="price-category">
+                      <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                      <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                      <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+                    </div>
+                    <div class="price-category">
+                      <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                      <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                      <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+                    </div>
+                  </div>
+                </div>
+         
+
+        <a style="width: 95%;" href="#bbqchickenwrapContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="bbqchickenwrapContents">
+          <img src="bbqchickenwrap.webp" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="bbqchickenwrap">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+
+        <a style="width: 95%;" href="#pestoChickenWrapContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="bbqchickenwrapContents">
+          <img src="pestochickenwrap.webp" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="pestochickenwrap">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+       
+
+        <a style="width: 95%;" href="#cheeseburgerwrapContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="cheeseburgerwrapContents">
+          <img src="cheeseburgerwrap.webp" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="cheeseburgerwrap">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+
+        <a style="width: 95%;" href="#39Contents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="39Contents">
+          <img src="39.webp" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="no39">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+
+        <a style="width: 95%;" href="#brisketwrapContents" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="chickenwrapContents">
+          <img src="brisketwrap.webp" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="brisketwrap">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+         
+      </div>
+      <!-- Durumlar end ya -->
+      <!-- Scalater start ya -->
+      <div id="Salatalar" class="burger-tab" style="color: white;z-index: 0;padding-bottom: 100px;">
+        <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn">&times;</a>
+
+        <a style="width: 95%;">
+          <img src="grilledcrispychickensalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="grilledcrispychickensalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="grilledcrispychickensalad" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="grilledcrispychickensalad">
+            <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Crispy OR Grilled Chicken Salad: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;"></p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;font-size: large;">180TL</p>
+            </section>
+          </div>
+        </div> -->
+
+        <a style="width: 95%;">
+          <img src="meatballhalloumisalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="meatballhalloumisalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="meatballhalloumisalad" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="meatballhalloumisalad">
+            <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Meatball & Halloumi Salad: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;"></p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;font-size: large;">220TL</p>
+            </section>
+          </div>
+        </div> -->
+
+        <a style="width: 95%;">
+          <img src="chickmeatballsalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="chickmeatballsalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="chickmeatballsalad" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="chickmeatballsalad">
+            <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Chicken Meatball & Halloumi Salad: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;"></p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;font-size: large;">180TL</p>
+            </section>
+          </div>
+        </div> -->
+
+        <a style="width: 95%;">
+          <img src="steaksalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="steaksalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="steaksalad" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="steaksalad">
+            <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Steak Salad: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;"></p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;font-size: large;">240TL</p>
+            </section>
+          </div>
+        </div> -->
+
+        <a style="width: 95%;">
+          <img src="brisketsalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="brisketsalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="brisketsalad" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="brisketsalad">
+            <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Brisket Salad: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;"></p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;font-size: large;">240TL</p>
+            </section>
+          </div>
+        </div> -->
+
+        <a style="width: 95%;">
+          <img src="fetacheesesalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="fetacheesesalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="fetacheesesalad" style="background-color: rgb(32, 32, 32);">
+          <div class="card card-body"  style="color: white;text-align: center;" id="fetacheesesalad">
+            <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Feta Cheese Salad: </h4>
+            <p style="text-align: center;position: relative;bottom: -12px;"></p>
+            <br>
+            <section style="background-color: #795226;;">
+              <br>
+              <p style="text-align: center;position: relative;top: -10px;font-size: large;">140TL</p>
+            </section>
+          </div>
+        </div> -->
+
+        <a style="width: 95%;">
+          <img src="felafelsalad.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="felafelsalad">
+          <h4 style="font-family: Roboto Slab Bold;"> INGREDIENTS: </h4>
+          <p>Chicken Burger</p>
+          <br>
+          <div class="food-list">
+        
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+              <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+              <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scalater end ya -->
+       <!-- Menu lar start ya -->
+      <div id="Menuler" class="burger-tab" style="text-align: center;padding-bottom: 100px;">
+        <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn" >&times;</a>
+        <a style="width: 95%;" href="#meals1" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="meals1">
+          <img src="meals1.jpg" alt="Menus" style="max-width: 90%;text-align: right;">
+          <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="grilledmeals1">
+            <h4 style="font-family: Roboto Slab Bold;"> APPETIZER: </h4>
+             <p>APPETIZER 1 DIET CHICKEN FILLET</p> 
+            <br>
+            <div class="food-list">
+              <div class="price-category">
+                <p class="meal">Green Salad <span class="price">(₺75)</span></p>
+                <p class="meal">Greek Salad <span class="price">(₺90)</span></p>
+                <p class="meal">Fattuosh <span class="price">(₺80)</span></p>
+                
+              </div>
+              <div class="price-category">
+                <p class="meal">Egg Plant Mutabbal <span class="price">(₺70)</span></p>
+                <p class="meal">Kebah (2pieces) <span class="price">(₺50)</span></p>
+                <p class="meal"> Pastry with cheese (1piece) <span class="price">(₺25)</span></p>
+                
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a style="width: 95%;" href="#meals2" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="meals2">
+          <img src="meals2.jpg" alt="Menus" style="max-width: 90%;text-align: right;">
+        </a>
+        <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="grilledmeals2">
+          <h4 style="font-family: Roboto Slab Bold;"> APPETIZER: </h4>
+          
+          <br>
+          <div class="food-list">
+            <div class="price-category">
+              <p class="meal">Caeser Salad with Chicken <span class="price">(₺90)</span></p>
+              <p class="meal">Kebah Stuffed Sharwama(2pieces) <span class="price">(₺60)</span></p>
+              <p class="meal">French Fries <span class="price">(₺75)</span></p>
+            </div>
+            <div class="price-category">
+              <p class="meal">Tabboule <span class="price">(₺85)</span></p>
+              <p class="meal">Hommus <span class="price">(₺60)</span></p>
+              <p class="meal">Mozzarella Sticks(4pieces) <span class="price">(₺60)</span></p>
+            </div>
+          </div>
+         </div>
+        </div>
+         
+       <!-- </div> -->
+      
+       <!-- Menu lar end ya -->
+      
+       <div class="footer-social-div">
+              
+
+              <a href="#" target="_blank" class="fa fa-brands fa-facebook fa-2x"></a>
+              <a href="#" target="_blank" class="fa fa-brands fa-instagram fa-2x"></a>
+              <a href="https://wa.me/905338688158" target="_blank" class="fa fa-brands fa-whatsapp fa-2x"></a>
+
+
+       </div>
+
+    
+
+
+
+    <!-- Baslangiclar start ya -->
+    <div id="Baslangiclar" class="burger-tab" style="color: white;z-index: 0;padding-bottom: 100px;">
+      <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn" style="margin-left: 1%;" >&times;</a>
+
+      <a style="width: 95%;">
+        <img src="onionRings.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="onionRings" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="onionRings">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Onion Rings(10PCS): </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">85TL</p>
+          </section>
+        </div>
+      </div>
+
+      <a style="width: 95%;">
+        <img src="mozzarellaSticks.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="mozzarellaSticks" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="mozzarellaSticks">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Mozarella Sticks(8PCS): </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">100TL</p>
+          </section>
+        </div>
+      </div>
+
+      <a style="width: 95%;">
+        <img src="chickenTenders.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="chickenTenders" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="chickenTenders">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Chicken Tenders(4PCS): </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">120TL</p>
+          </section>
+        </div>
+      </div>
+
+      <a style="width: 95%;">
+        <img src="crispyShrimp.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="crispyShrimp" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="crispyShrimp">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Crispy Shrimps(8PCS): </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">120TL</p>
+          </section>
+        </div>
+      </div>
+
+      <a style="width: 95%;">
+        <img src="hotWings.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="hotWings" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="hotWings">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Hot Wings(6PCS): </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">90TL</p>
+          </section>
+        </div>
+      </div>
+
+      <a style="width: 95%;">
+        <img src="potatoWedges.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="potatoWedges" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="potatoWedges">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Potato Wedges: </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">60TL</p>
+          </section>
+        </div>
+      </div>
+
+      <a style="width: 95%;">
+        <img src="chips.jpg" alt="Co-Jack" style="max-width: 90%;text-align: right;">
+      </a>
+      <div id="chips" style="background-color: rgb(32, 32, 32);">
+        <div class="card card-body"  style="color: white;text-align: center;" id="chips">
+          <h3 style="font-family: Roboto Slab Bold;position: relative;bottom: -10px;"> Chips: </h4>
+          <p style="text-align: center;position: relative;bottom: -12px;"></p>
+          <br>
+          <section style="background-color: #795226;;">
+            <br>
+            <p style="text-align: center;position: relative;top: -10px;font-size: large;">55TL</p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Baslangiclar end ya -->
+
+
+        <div id="CocukMenusu" class="burger-tab" style="color: white;z-index: 0;padding-bottom: 100px;" >
+         <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn" style="margin-left: 1%;">&times;</a>
+          <a style="width: 95%;" href="#kids" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="kids">
+            <img src="kids1.jpg" alt="Kids" style="max-width: 90%;text-align: right;">
+          </a>
+          <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="kidsmeal">
+            <h4 style="font-family: Roboto Slab Bold;"> Chicken Mandi: </h4>
+             
+            <br>
+            <div class="food-list">
+          
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="collapse" id="kids" style="background-color: rgb(32, 32, 32);">
+                <div class="card card-body"  style="color: white;text-align: center;" id="kidsmeal">
+                    KIDS 1:
+                    <br>
+                    <br>
+                    70g Cheeseburger + Chips + Fruit Juice
+                    <br>
+                    <br>
+                    150TL
+                </div>
+          </div> -->
+      
+          <a style="width: 95%;" href="#kids2" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="kids2">
+            <img src="kids2.jpg" alt="Kids" style="max-width: 90%;text-align: right;">
+          </a>
+          <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="kidsmeal2">
+            <h4 style="font-family: Roboto Slab Bold;"> PASTA: </h4>
+            <!-- <p>Chicken Burger</p> -->
+            <br>
+            <div class="food-list">
+          
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="collapse" id="kids2" style="background-color: rgb(32, 32, 32);">
+                <div class="card card-body"  style="color: white;text-align: center;" id="kidsmeal2">
+                    KIDS 2:
+                    <br>
+                    <br>
+                    90g Chicken Burger + Chips + Fruit Juice
+                    <br>
+                    <br>
+                    150TL
+                </div>
+          </div> -->
+        
+      
+          <a style="width: 95%;" href="#kids3" class="btn btn" data-toggle="collapse"  aria-expanded="false" aria-controls="kids3">
+            <img src="kids3.jpg" alt="Kids" style="max-width: 90%;text-align: right;">
+          </a>
+          <div class="card card-body ingredient-container" style="color: white;text-align: center;" id="kidsmeal3">
+            <h4 style="font-family: Roboto Slab Bold;"> PEENE ARRABIATTA: </h4>
+            <!-- <p>Chicken Burger</p> -->
+            <br>
+            <div class="food-list">
+          
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+              <div class="price-category">
+                <p class="meal">100g + Chips <span class="price">(₺160)</span></p>
+                <p class="meal">150g + Chips <span class="price">(₺180)</span></p>
+                <p class="meal">200g + Chips <span class="price">(₺210)</span></p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="collapse" id="kids3" style="background-color: rgb(32, 32, 32);">
+            <div class="card card-body"  style="color: white;text-align: center;" id="kidsmeal3">
+                KIDS 3
+                <br>
+                <br>
+                6 Pcs Chicken Nuggets + Chips + Fruit Juice
+                <br>
+                <br>
+                150TL
+            </div>
+          </div> -->
+         </div>
+
+        <div id="Icecekler" class="burger-tab" style="color: white;z-index: 20;padding-bottom: 100px;">
+         <a href="javascript:void(0)"  class="closebtn newMenuCloseBtn" style="transform: translateX(47%);">&times;</a>
+          <h1 style="text-align: center;">DRINKS</h1>
+              <section style="display: inline-block;margin-left: 3%;">
+                <h2>&emsp;Cold</h3>
+                <p>
+                  &emsp;&emsp;COCA COLA <br> 
+                  &emsp;&emsp;COCA COLA ZERO <br>
+                  &emsp;&emsp;FANTA <br>
+                  &emsp;&emsp;SPRITE <br>
+                  &emsp;&emsp;FUSE TEA <br>
+                  &emsp;&emsp;CAPPY <br>
+                  &emsp;&emsp;SODA <br>
+                  &emsp;&emsp;AYRAN <br>
+                  &emsp;&emsp;SU <br>
+                </p>
+
+                <h2>&emsp;Beers</h3>
+                <p>
+                  &emsp;&emsp;BECKS 50CL ŞİŞE <br>
+                  &emsp;&emsp;BOMONTI FİLTRESİZ 50CL ŞİŞE <br>
+                  &emsp;&emsp;MILLER 33CL ŞİŞE <br>
+                  &emsp;&emsp;BUD 33CL ŞİŞE <br>
+                  &emsp;&emsp;HEINEKEN 33CL ŞİŞE <br> 
+                  &emsp;&emsp;EFES PILSEN FIÇI 50CL ŞİŞE <br>
+                  &emsp;&emsp;CARLSBERG 33CL ŞİŞE<br>
+                </p>
+
+                
+
+                <h2>&emsp;Milkshakes</h3>
+                <p>
+                  &emsp;&emsp;VANILLA <br>
+                  &emsp;&emsp;STRAWBERRY <br>
+                  &emsp;&emsp;CHOCOLATE <br>
+                  &emsp;&emsp;OREO <br>
+                </p>
+              </section>
+
+              <section style="display: inline-block;position: relative;top: -9px;">
+                <p>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;25TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;13TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;13TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;13TL <br>
+                  <br> 
+                  <br>
+                  <br>  
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;60TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;65TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;60TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;60TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;65TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;60TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;60TL <br>
+                  
+                  <br> 
+                  <br>
+                  <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;100TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;100TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;100TL <br>
+                  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;115TL <br>
+
+                </p>
+              </section>
+          </div>
+   
+
+
+
+   <script src="code.js"></script>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+   <!-- jQuery library -->
+   <script src="../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+   <script src="new.js"></script>
+</body>
+
+</html>
